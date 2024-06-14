@@ -37,10 +37,9 @@ window.onload = function() {
   //write your code here
   let parrafo = document.querySelector("#excuse");
   parrafo.innerHTML = generarexcusa();
-  document
-    .getElementById("generarexcusa")
-    .addEventListener("click", function() {
+  document.getElementById("generarexcusa").addEventListener("click", function() {
       parrafo.innerHTML = generarexcusa();
     });
   console.log("Hello Rigo from the console!");
+  //Tambíen se puede poner como document.queryselector("#SelectorId").innerHTML= variable;
 };
